@@ -38,6 +38,14 @@ var links = [
 
 function displaySongInfo(){
     // BELOW Use forEach Loop to display the data from each of your arrays in the correct div
+        songs.forEach(function(song){
+	    $("#songs").append("<li>" + song + "</li>"); 
+    });
+
+}
+        .forEach(function(song){
+	    $("#songs").append("<li>" + song + "</li>"); 
+    });
 
 }
 
