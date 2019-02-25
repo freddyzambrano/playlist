@@ -8,10 +8,10 @@ var songs = [
     "Take on Me"
 ];
 var images_links = [
-    "/images/respect", 
-    "/images/girl-on-fire.jpeg", 
-    "/images/the-list.jpeg", 
-    "/images/take-on-me.jpeg"
+    "images/respect.jpeg", 
+    "images/girl-on-fire.jpeg", 
+    "images/the-list.jpeg", 
+    "images/take-on-me.jpeg"
 ];
 var artists = [
     "Aretha Franklin", 
@@ -38,13 +38,24 @@ var links = [
 
 function displaySongInfo(){
     // BELOW Use forEach Loop to display the data from each of your arrays in the correct div
-        songs.forEach(function(song){
+    songs.forEach(function (song){
 	    $("#songs").append("<li>" + song + "</li>"); 
     });
 
-}
-        .forEach(function(song){
-	    $("#songs").append("<li>" + song + "</li>"); 
+    images_links.forEach(function (imglink){
+	    $("#images").append("<img src=" + imglink + ">"); 
+    });
+    
+    artists.forEach(function (art){
+	    $("#artists").append("<li>" + art + "</li>"); 
+    });
+    
+    songLengths.forEach(function (sngL){
+	    $("#lengths").append("<li>" + sngL + "<li>"); 
+    });
+    
+    links.forEach(function (link){
+	    $("#links").append("<a href='" + link + "'>" + "Click Here" + "</a>"); 
     });
 
 }

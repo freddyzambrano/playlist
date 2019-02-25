@@ -22,7 +22,7 @@
 
 ## Day 2
 ### JS
-- [ ] Add a forEach loop in the displaySongInfo function to display the data from each of your arrays in the correct div
+- [x] Add a forEach loop in the displaySongInfo function to display the data from each of your arrays in the correct div
 - [ ] Update the code to correctly append HTML Elements (img, p, a tags) using jQuery
 - [ ] Use jQuery to complete the body of the emptySongInfo function
 ### Wrap
@@ -36,7 +36,7 @@
 - [ ] Display the results to the screen when the user clicks a button
 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Extensions
 - [x] Update the HTML and CSS to reflect your own style.
